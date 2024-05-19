@@ -17,7 +17,8 @@ def context_data(request):
         'system_host' : abs_uri,
         'page_name' : '',
         'page_title' : '',
-        'system_name' : 'Library Managament System',
+        'system_name' : 'Library System',
+        'college_name': 'PROF. RAMKRISHNA MORE ARTS, COMMERCE & SCIENCE COLLEGE',
         'topbar' : True,
         'footer' : True,
     }
